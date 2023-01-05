@@ -102,7 +102,7 @@
   color: #ffffff;
 }
 
-.contact {
+.contact-me {
   width: 160px;
   height: 64px;
   color: #fd6e0a;
@@ -234,3 +234,50 @@ section {
   margin-top: 50px;
   text-align: center;
 }
+
+/* contact section */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: none;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input {
+  height: 64px;
+}
+
+.section-description_contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+}
+
+.socials {
+  height: 24px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.contact a {
+  text-decoration: none;
+  margin-right: 24px;
+}
+
