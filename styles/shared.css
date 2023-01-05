@@ -8,6 +8,13 @@
   box-sizing: border-box;
 }
 
+.header-main {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, center left;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -55,38 +62,52 @@
 }
 
 .banner {
-    display: flex;
-    margin: 11.5rem 14rem;
-    align-items: center;
+  display: flex;
+  margin: 11.5rem 14rem;
+  align-items: center;
 }
 
-.banner .banner-greet,
-.banner-title {
-  font-family: "Open Sans";
+.banner-subtitle {
   font-style: normal;
   font-weight: 600;
   font-size: 3rem;
-  color: #474747;
+  color: #757575;
 }
 
-.banner .banner-title {
-  font-family: "Open Sans";
+.banner-title {
   font-style: normal;
   font-weight: 700;
   font-size: 5.25rem;
-  color: #181818;
+  margin-bottom: 1.25rem;
 }
 
-.banner-subtitle_holder {
-  width: 40rem;
-  height: 4rem;
-}
-
-.banner .banner-subtitle {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.2rem;
+.banner-description {
   color: #757575;
-  text-align: left;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.download {
+  width: 200px;
+  height: 64px;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  margin-right: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact {
+  width: 160px;
+  height: 64px;
+  color: #fd6e0a;
+  border-color: #fd6e0a;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
 }
