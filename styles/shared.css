@@ -10,7 +10,8 @@
 
 .header-main {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, center left;
 }
@@ -110,4 +111,48 @@
   font-weight: 700;
   font-size: 20px;
   text-align: center;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about-me {
+  margin-top: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info_title {
+  font-size: 20px;
+  color: #757575;
+}
+
+.about-info_description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  
 }
