@@ -12,6 +12,12 @@
     display: flex;
     justify-content: space-between;
     margin: 3.2rem 14rem;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
 }
 
 .nav-item {
@@ -35,10 +41,6 @@
 
 .text-primary {
     color: #FD6E0A;
-}
-
-.nav-items {
-    display: flex;
 }
 
 .nav-item--cta {
