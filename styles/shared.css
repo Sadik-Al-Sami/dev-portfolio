@@ -14,9 +14,15 @@
     margin: 3.2rem 14rem;
 }
 
-.nav-bar .nav-item {
+.nav-item {
     list-style: none;
     margin-left: 3.2rem;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #474747;
 }
 
 .nav-title {
@@ -33,4 +39,15 @@
 
 .nav-items {
     display: flex;
+}
+
+.nav-item--cta {
+    padding: 1.2rem 2.2rem;
+    background: #FD6E0A;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    height: 64px;
 }
